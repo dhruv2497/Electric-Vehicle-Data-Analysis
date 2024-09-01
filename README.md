@@ -18,6 +18,14 @@ Charts used:
 
 Data Interaction Techniques:
 Filters: Enables users to drill down by city, electric utility, and vehicle type for focused analysis.
+
 DAX Functions: Leverages Data Analysis Expressions (DAX) for complex calculations, creating new insights from existing data.
+1. Total Vehicles = DISTINCTCOUNT(Electric_Vehicle_Population_Data[DOL Vehicle ID])
+2. Avg. Electric Range = CONCATENATE(FORMAT(AVERAGE(Electric_Vehicle_Population_Data[Electric Range]), "0.00"), "Km")
+3. BEV Vehicles = CALCULATE([Total Vehicles], Electric_Vehicle_Population_Data[Electric Vehicle Type] = "Battery Electric Vehicle (BEV)")
+4. %age of BEV Vehicles = [BEV Vehicles]/[Total Vehicles]
+5. PHEV Vehicles = CALCULATE([Total Vehicles], Electric_Vehicle_Population_Data[Electric Vehicle Type] = "Plug-in Hybrid Electric Vehicle (PHEV)")
+6. %age of PHEV Vehicles = [PHEV Vehicles]/[Total Vehicles]
+
 
 This comprehensive dashboard empowers users to explore the electric vehicle landscape in detail, aiding informed decision-making.
