@@ -1,7 +1,3 @@
-To represent your **Electric Vehicle Data Analysis** project in your GitHub repository's `README.md` file, you need to structure it in a clear, concise, and visually appealing way. Below is a template you can use to create your `README.md` file:
-
----
-
 # Electric Vehicle Data Analysis using Power BI
 
 ## Project Overview
