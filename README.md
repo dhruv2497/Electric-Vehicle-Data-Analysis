@@ -2,7 +2,6 @@
 
 ## Project Overview
 This project analyzes **Washington State Electric Vehicle Demographic Data** to uncover trends, patterns, and insights into electric vehicle (EV) adoption, performance, and market dynamics. The analysis is performed using **Power BI**, and the dataset is sourced from the **Washington State Department of Licensing (DOL)** via [Kaggle](https://www.kaggle.com/datasets/adilashrafi/elecrict-vehicle).
-
 ---
 
 ## About the Dataset
@@ -37,7 +36,6 @@ This project analyzes **Washington State Electric Vehicle Demographic Data** to 
 | Vehicle Location          | Geographic location of the vehicle              |
 | Electric Utility          | Electric utility associated with the vehicle    |
 | 2020 Census Tract         | Census tract information for 2020               |
-
 ---
 
 ## Project Requirements
@@ -57,7 +55,6 @@ This project analyzes **Washington State Electric Vehicle Demographic Data** to 
    - City
    - Electric Utility
    - Electric Vehicle Type
-
 ---
 
 ## Solution
@@ -88,7 +85,6 @@ The Power BI dashboard provides interactive visualizations and insights into the
 
 5. **Top 10 Total Vehicles by Model (Tree Map)**:
    - Tesla Model Y (30,841) and Model 3 (28,589) are the top models.
-
 ---
 
 ## DAX Functions Used
@@ -117,7 +113,6 @@ The following DAX functions were used to calculate key metrics:
    ```DAX
    %age of PHEV Vehicles = [PHEV Vehicles] / [Total Vehicles]
    ```
-
 ---
 
 ## Key Insights
@@ -129,14 +124,11 @@ The following DAX functions were used to calculate key metrics:
    - Tesla dominates the market, with the Model Y and Model 3 being the most popular models.
 4. **CAFV Eligibility**:
    - 40% of vehicles are eligible for CAFV incentives, highlighting the impact of policy on EV adoption.
-
 ---
 
 ## Screenshots
 ### Power BI Dashboard
-![Dashboard Screenshot](https://via.placeholder.com/800x400)  
-*Replace with an actual screenshot of your Power BI dashboard.*
-
+![Image](https://github.com/user-attachments/assets/26ce7fd0-61c3-4fcd-b7b2-c55b391b7f93)
 ---
 
 ## How to Use
@@ -146,11 +138,9 @@ The following DAX functions were used to calculate key metrics:
    ```
 2. Open the Power BI file (`Electric_Vehicle_Analysis.pbix`) in Power BI Desktop.
 3. Explore the interactive dashboard and apply filters to analyze specific data points.
-
 ---
 
 ## Additional Resources
 - [Washington State Electric Vehicle Population Data](https://data.wa.gov/Transportation/Electric-Vehicle-Population-Data/f6w7-q2d2)
 - [Kaggle Dataset Page](https://www.kaggle.com/datasets/adilashrafi/elecrict-vehicle)
-
 ---
